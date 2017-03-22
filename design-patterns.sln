@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design-patterns", "design-patterns\design-patterns.csproj", "{0111F95E-F480-4B50-8C24-FEAA232D5F6C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{9B221677-CF54-483D-803C-0F0D4BDB5ED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniDuckSimulator", "Strategy\MiniDuckSimulator\MiniDuckSimulator.csproj", "{65B4FACB-5F4A-486F-ADED-C2948B150CD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +13,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0111F95E-F480-4B50-8C24-FEAA232D5F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0111F95E-F480-4B50-8C24-FEAA232D5F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0111F95E-F480-4B50-8C24-FEAA232D5F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0111F95E-F480-4B50-8C24-FEAA232D5F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B4FACB-5F4A-486F-ADED-C2948B150CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B4FACB-5F4A-486F-ADED-C2948B150CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B4FACB-5F4A-486F-ADED-C2948B150CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B4FACB-5F4A-486F-ADED-C2948B150CD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65B4FACB-5F4A-486F-ADED-C2948B150CD2} = {9B221677-CF54-483D-803C-0F0D4BDB5ED1}
 	EndGlobalSection
 EndGlobal
