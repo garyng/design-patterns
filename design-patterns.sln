@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{9B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniDuckSimulator", "Strategy\MiniDuckSimulator\MiniDuckSimulator.csproj", "{65B4FACB-5F4A-486F-ADED-C2948B150CD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "Observer\WeatherStation\WeatherStation.csproj", "{8A53EEA7-3946-45AA-B256-7F9F05B39E22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{39D47366-48B8-45CD-BB77-2E75FA25D101}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{65B4FACB-5F4A-486F-ADED-C2948B150CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65B4FACB-5F4A-486F-ADED-C2948B150CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65B4FACB-5F4A-486F-ADED-C2948B150CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A53EEA7-3946-45AA-B256-7F9F05B39E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A53EEA7-3946-45AA-B256-7F9F05B39E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A53EEA7-3946-45AA-B256-7F9F05B39E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A53EEA7-3946-45AA-B256-7F9F05B39E22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{65B4FACB-5F4A-486F-ADED-C2948B150CD2} = {9B221677-CF54-483D-803C-0F0D4BDB5ED1}
+		{8A53EEA7-3946-45AA-B256-7F9F05B39E22} = {39D47366-48B8-45CD-BB77-2E75FA25D101}
 	EndGlobalSection
 EndGlobal
