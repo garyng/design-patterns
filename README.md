@@ -27,3 +27,6 @@ The decorator pattern attaches additional responsibilities to an object dynamica
 ## Factory Pattern
 ### Simple Factory
 > Not actually a pattern, but is commonly used
+
+### Factory Method Pattern
+The factory method pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory method lets a class defer instantiation to subclasses.
