@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{88DA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePizzaFactory", "Factory\SimplePizzaFactory\SimplePizzaFactory.csproj", "{8D1A4E2D-04C2-475E-B8E9-7077759027D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreFactoryMethod", "PizzaStoreFactoryMethod\PizzaStoreFactoryMethod.csproj", "{F05AD300-072F-4269-890D-164FC547DD84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreFactoryMethod", "Factory\PizzaStoreFactoryMethod\PizzaStoreFactoryMethod.csproj", "{F05AD300-072F-4269-890D-164FC547DD84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
