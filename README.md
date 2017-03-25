@@ -23,3 +23,7 @@ The observer pattern defines a one-to-many dependency between objects so that wh
 
 ## Decorator Pattern
 The decorator pattern attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to sub-classing for extending functionality.
+
+## Factory Pattern
+### Simple Factory
+> Not actually a pattern, but is commonly used
