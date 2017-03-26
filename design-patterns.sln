@@ -23,6 +23,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreFactoryMethod", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreAbstractFactory", "Factory\PizzaStoreAbstractFactory\PizzaStoreAbstractFactory.csproj", "{1D4E931C-6D00-454F-8E09-10913A3A8010}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{DA47ECE8-3DC2-4E2F-9724-29CB22028DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadUnsafeChocolateBoiler", "Singleton\ThreadUnsafeChocolateBoiler\ThreadUnsafeChocolateBoiler.csproj", "{0D2A4FEE-E7B2-403C-B0D5-47A17F99EBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleThreadSafeChocolateBoiler", "Singleton\SimpleThreadSafeChocolateBoiler\SimpleThreadSafeChocolateBoiler.csproj", "{2EB54E6B-6A8A-4111-A493-9CD33FF5D127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyThreadSafeChocolateBuilder", "Singleton\LazyThreadSafeChocolateBuilder\LazyThreadSafeChocolateBuilder.csproj", "{D096D230-C26A-49B4-8F5B-98FCC7D23DC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +61,18 @@ Global
 		{1D4E931C-6D00-454F-8E09-10913A3A8010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D4E931C-6D00-454F-8E09-10913A3A8010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D4E931C-6D00-454F-8E09-10913A3A8010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2A4FEE-E7B2-403C-B0D5-47A17F99EBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2A4FEE-E7B2-403C-B0D5-47A17F99EBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2A4FEE-E7B2-403C-B0D5-47A17F99EBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2A4FEE-E7B2-403C-B0D5-47A17F99EBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB54E6B-6A8A-4111-A493-9CD33FF5D127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB54E6B-6A8A-4111-A493-9CD33FF5D127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB54E6B-6A8A-4111-A493-9CD33FF5D127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB54E6B-6A8A-4111-A493-9CD33FF5D127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D096D230-C26A-49B4-8F5B-98FCC7D23DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D096D230-C26A-49B4-8F5B-98FCC7D23DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D096D230-C26A-49B4-8F5B-98FCC7D23DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D096D230-C26A-49B4-8F5B-98FCC7D23DC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +84,8 @@ Global
 		{8D1A4E2D-04C2-475E-B8E9-7077759027D3} = {88DAE74E-3B5B-451E-BE8E-06A340AED9F1}
 		{F05AD300-072F-4269-890D-164FC547DD84} = {88DAE74E-3B5B-451E-BE8E-06A340AED9F1}
 		{1D4E931C-6D00-454F-8E09-10913A3A8010} = {88DAE74E-3B5B-451E-BE8E-06A340AED9F1}
+		{0D2A4FEE-E7B2-403C-B0D5-47A17F99EBB7} = {DA47ECE8-3DC2-4E2F-9724-29CB22028DF3}
+		{2EB54E6B-6A8A-4111-A493-9CD33FF5D127} = {DA47ECE8-3DC2-4E2F-9724-29CB22028DF3}
+		{D096D230-C26A-49B4-8F5B-98FCC7D23DC2} = {DA47ECE8-3DC2-4E2F-9724-29CB22028DF3}
 	EndGlobalSection
 EndGlobal
