@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlWithUndo", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlWithPartyMode", "Command\RemoteControlWithPartyMode\RemoteControlWithPartyMode.csproj", "{F6EBAABA-D832-4BED-A738-35F63BB25389}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{621573A6-1B8C-4797-BEDB-C953A021A52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckAdapter", "Adapter\DuckAdapter\DuckAdapter.csproj", "{2F809FD8-6365-4502-91E4-4D92A25E9369}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,10 @@ Global
 		{F6EBAABA-D832-4BED-A738-35F63BB25389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6EBAABA-D832-4BED-A738-35F63BB25389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6EBAABA-D832-4BED-A738-35F63BB25389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F809FD8-6365-4502-91E4-4D92A25E9369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F809FD8-6365-4502-91E4-4D92A25E9369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F809FD8-6365-4502-91E4-4D92A25E9369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F809FD8-6365-4502-91E4-4D92A25E9369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,5 +125,6 @@ Global
 		{E69DFC34-FBEF-4FA8-8E26-DB322C6F9AC2} = {85271A2B-C02C-470F-8432-B137A628CC44}
 		{9B178665-9379-4270-97D0-903D2793B0AF} = {85271A2B-C02C-470F-8432-B137A628CC44}
 		{F6EBAABA-D832-4BED-A738-35F63BB25389} = {85271A2B-C02C-470F-8432-B137A628CC44}
+		{2F809FD8-6365-4502-91E4-4D92A25E9369} = {621573A6-1B8C-4797-BEDB-C953A021A52F}
 	EndGlobalSection
 EndGlobal
