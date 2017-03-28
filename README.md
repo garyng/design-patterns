@@ -36,3 +36,6 @@ The abstract factory pattern provides an interface for creating families of rela
 
 ## Singleton Pattern
 The singleton pattern ensures a class has only one instance, and provides a global point of access to it.
+
+## Command Pattern
+The command pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
