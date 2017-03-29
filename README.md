@@ -11,6 +11,12 @@
 4. Strive for **loosely coupled** designs between objects that interact
 5. Classes should be **open for extension**, but **closed for modification** (_Open-Closed Principle_)
 6. Depend upon **abstractions**. Do not depend upon **abstract classes** (_Dependency Inversion Principle_)
+7. Talk only to your **immediate friends**. (_Principle of Least Knowledge_ / _Law of Demeter_)
+> Any method in an object should only invoke methods that belong to
+> 1. The object itself
+> 2. Objects passed in as a parameter to the methods
+> 3. Any object the method creates of instantiate
+> 4. Any components of the object
 
 # Design Patterns
 
@@ -42,3 +48,6 @@ The command pattern encapsulates a request as an object, thereby letting you par
 
 ## Adapter Pattern
 The adapter pattern converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+## Façade Pattern
+The façade pattern provides a unified interface to a set of interfaces in a subsystem. Façade defines a higher-level interface that makes the subsystem easier to use.
