@@ -69,6 +69,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuWithEnumerator", "Itera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuWithCafe", "Iterator\MenuWithCafe\MenuWithCafe.csproj", "{30CCDD4D-9542-4169-A765-8D6FFA7A1F49}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{9E869B0C-B481-4BA2-B435-49B564BB41B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeMenu", "Composite\CompositeMenu\CompositeMenu.csproj", "{4FDA5BE5-95EE-43AF-B904-874771333A14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +171,10 @@ Global
 		{30CCDD4D-9542-4169-A765-8D6FFA7A1F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30CCDD4D-9542-4169-A765-8D6FFA7A1F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30CCDD4D-9542-4169-A765-8D6FFA7A1F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDA5BE5-95EE-43AF-B904-874771333A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDA5BE5-95EE-43AF-B904-874771333A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDA5BE5-95EE-43AF-B904-874771333A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDA5BE5-95EE-43AF-B904-874771333A14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,5 +203,6 @@ Global
 		{B34C6B93-C7A0-403B-B7FA-41F526C26331} = {D64E2FA6-B9AE-4AA1-8584-B538727ED1BC}
 		{59E11F6C-F1CB-4BD7-8B01-B96950842BA6} = {D64E2FA6-B9AE-4AA1-8584-B538727ED1BC}
 		{30CCDD4D-9542-4169-A765-8D6FFA7A1F49} = {D64E2FA6-B9AE-4AA1-8584-B538727ED1BC}
+		{4FDA5BE5-95EE-43AF-B904-874771333A14} = {9E869B0C-B481-4BA2-B435-49B564BB41B7}
 	EndGlobalSection
 EndGlobal

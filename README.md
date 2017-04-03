@@ -59,3 +59,6 @@ The template method defines the skeleton of an algorithm in a method, deferring 
 
 ## Iterator Pattern
 The iterator pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+## Composite Pattern
+The composite pattern allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
