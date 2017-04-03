@@ -17,8 +17,8 @@
 > 2. Objects passed in as a parameter to the methods
 > 3. Any object the method creates of instantiate
 > 4. Any components of the object
-8. Don't call us, we'll call you. (_Hollywood Principle_ / _Inversion Of Control_ / _Dependency Injection_)
-
+8. Don't call us, we'll call you (_Hollywood Principle_ / _Inversion Of Control_ / _Dependency Injection_)
+9. A class should have only **one reason** to change (_Single Responsibility Principle_)
 
 # Design Patterns
 
@@ -56,3 +56,6 @@ The façade pattern provides a unified interface to a set of interfaces in a sub
 
 ## Template Method Pattern
 The template method defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+
+## Iterator Pattern
+The iterator pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
