@@ -81,6 +81,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GumballMachine", "State\Gum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GumballMachineWithWinner", "State\GumballMachineWithWinner\GumballMachineWithWinner.csproj", "{A2F52540-E9E3-4658-9FBE-468A85B5999B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compound", "Compound", "{8563C9D8-916B-4D58-AFE0-2A289314736B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckSimulator", "Compound\DuckSimulator\DuckSimulator.csproj", "{0DAD5721-1937-4212-A7D5-0E9589ADEFE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +199,10 @@ Global
 		{A2F52540-E9E3-4658-9FBE-468A85B5999B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2F52540-E9E3-4658-9FBE-468A85B5999B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F52540-E9E3-4658-9FBE-468A85B5999B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DAD5721-1937-4212-A7D5-0E9589ADEFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAD5721-1937-4212-A7D5-0E9589ADEFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DAD5721-1937-4212-A7D5-0E9589ADEFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DAD5721-1937-4212-A7D5-0E9589ADEFE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -227,5 +235,6 @@ Global
 		{ABDE32DD-125C-41B6-9D4C-DC6DFA5F9816} = {4C408CB5-3ED8-4B62-816E-8CCF8F9654BA}
 		{42C11A3D-C50E-461E-9364-733810D2AC30} = {4C408CB5-3ED8-4B62-816E-8CCF8F9654BA}
 		{A2F52540-E9E3-4658-9FBE-468A85B5999B} = {4C408CB5-3ED8-4B62-816E-8CCF8F9654BA}
+		{0DAD5721-1937-4212-A7D5-0E9589ADEFE2} = {8563C9D8-916B-4D58-AFE0-2A289314736B}
 	EndGlobalSection
 EndGlobal
