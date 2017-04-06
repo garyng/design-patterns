@@ -62,3 +62,6 @@ The iterator pattern provides a way to access the elements of an aggregate objec
 
 ## Composite Pattern
 The composite pattern allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+
+## State Pattern
+The state pattern allows an object to alter its behaviour when its internal state changes. The object will appear to change its class.
