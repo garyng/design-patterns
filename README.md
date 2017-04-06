@@ -65,3 +65,6 @@ The composite pattern allows you to compose objects into tree structures to repr
 
 ## State Pattern
 The state pattern allows an object to alter its behaviour when its internal state changes. The object will appear to change its class.
+
+## Proxy Pattern
+The proxy pattern provides an surrogate or placeholder for another object to control access to it.
