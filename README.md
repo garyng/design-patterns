@@ -68,3 +68,40 @@ The state pattern allows an object to alter its behaviour when its internal stat
 
 ## Proxy Pattern
 The proxy pattern provides an surrogate or placeholder for another object to control access to it.
+
+
+# Pattern Categories
+## Creational Pattern
+> Creational pattern involve object instantiation and all provide a way to decouple a client from the objects it needs to instantiate.
+
+1. Singleton
+2. Abstract Factory
+3. Factory Method
+4. Prototype
+5. Builder
+
+## Behavioral Pattern
+> Any pattern that is a behavioral pattern is concerned with how classes and objects interact and distribute responsibility.
+
+1. Template Method
+2. Command
+3. Iterator
+4. Observer
+5. State
+6. Strategy
+7. Visitor
+8. Mediator
+9. Interpreter
+10. Memento
+11. Chain Of Responsibility
+
+## Structural Pattern
+> Structural pattern let you compose classes or objects into large structures
+
+1. Decorator
+2. Proxy
+3. Composite
+4. Façade
+5. Adapter
+6. Flyweight
+7. Bridge
